@@ -24,7 +24,7 @@ body {
 /* --- Magia de Layout Principal com GRID 🏰 --- */
 .character-selection {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Duas colunas de tamanho igual */
+    grid-template-columns: 1fr 1fr 1fr; /* Três colunas de tamanho igual */
     gap: 30px; /* Um espaço maior entre as cartas */
     width: 90%;
     margin: 0 auto; /* Centraliza o grid na tela */
