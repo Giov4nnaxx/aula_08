@@ -13,7 +13,7 @@ export function DefaultInput({
 }: DefaultInputProps){
     return (
         <>
-        <label htmlFor={id}>{labelText}</label>
+        <label className={styles.label} htmlFor={id}>{labelText}</label>
         <input className={styles.input} id={id} type={type} {...rest} />
         </>
     )
