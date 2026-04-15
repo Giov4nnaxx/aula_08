@@ -1,3 +1,14 @@
 .input{
-    
+  background-color:transparent;
+  text-align: center;
+  font-size: 1.8;
+  padding:0.8rem;
+  color:var(--text-default);
+  border: 0.2rem solid var(--primary);
+  outline:auto;
+  transition: all 0.1s ease-in-out;
+}
+
+.input::placeholder{
+    font-style: italic;
 }

@@ -1,12 +1,10 @@
-import { DefaultInput } from "./components/DefaultInput"
-import { DefaultButton } from "./components/DefaultButton";
+import { MainForm } from './components/MainForm';
+import './styles/global.css'
 
 export function App() {
   return (
   <>
-  <DefaultButton/>
-  
-  <DefaultInput/>
+  <MainForm />
   </>
   );
 }
